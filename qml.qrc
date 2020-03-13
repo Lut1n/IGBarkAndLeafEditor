@@ -1,0 +1,33 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qtquickcontrols2.conf</file>
+        <file>main.qml</file>
+        <file>BarkEdit.qml</file>
+        <file>ColorEdit.qml</file>
+        <file>ControlPanel.qml</file>
+        <file>GeometryEdit.qml</file>
+        <file>LeafEdit.qml</file>
+        <file>LoadingNotifier.qml</file>
+        <file>SceneEdit.qml</file>
+        <file>RowCheckBox.qml</file>
+        <file>RowSlider.qml</file>
+        <file>RowComboBox.qml</file>
+        <file>CustomButton.qml</file>
+    </qresource>
+    <qresource prefix="/assets/glsl">
+        <file alias="tree.frag">assets/glsl/tree.frag</file>
+        <file alias="bark.frag">assets/glsl/bark.frag</file>
+        <file alias="leaf.frag">assets/glsl/leaf.frag</file>
+        <file alias="sky.vert">assets/glsl/sky.vert</file>
+        <file alias="sky_disp.frag">assets/glsl/sky_disp.frag</file>
+        <file alias="sky_gen.frag">assets/glsl/sky_gen.frag</file>
+        <file alias="water.vert">assets/glsl/water.vert</file>
+        <file alias="instanced.vert">assets/glsl/instanced.vert</file>
+    </qresource>
+    <qresource prefix="/assets/textures">
+        <file alias="color.json">assets/textures/color.json</file>
+        <file alias="normal.json">assets/textures/normal.json</file>
+        <file alias="grass.json">assets/textures/grass.json</file>
+        <file alias="rock.json">assets/textures/rock.json</file>
+    </qresource>
+</RCC>

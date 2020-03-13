@@ -1,0 +1,14 @@
+{
+	"properties":
+	{
+                "width":128,
+                "height":128,
+	},
+	"operations":
+	[
+                {"op":"hash", "id":"hash_01", "seed":14214.62354123},
+                {"op":"fbm", "noise_type":"perlin", "input_id":"hash_01", "freq":4.0, "octaves":4.0, "persist":0.7, "id":"perlin_01"},
+                {"op":"bumpToNormal", "input_id":"perlin_01","id":"normal_01"},
+                {"op":"fakesave", "input_id":"normal_01", "filename":":/assets/textures/normal.json"},
+	]
+}

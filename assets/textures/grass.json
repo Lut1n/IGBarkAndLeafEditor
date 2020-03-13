@@ -1,0 +1,13 @@
+{
+	"properties":
+	{
+                "width":32,
+                "height":32,
+	},
+	"operations":
+	[
+                {"op":"hash", "id":"hash_01", "seed":14214.62354123},
+                {"op":"fbm", "noise_type":"voronoi", "input_id":"hash_01", "freq":8.0, "octaves":3.0, "persist":0.5, "id":"fbm_01"},
+                {"op":"fakesave", "input_id":"fbm_01", "filename":":/assets/textures/grass.json"},
+	]
+}

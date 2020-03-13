@@ -1,0 +1,4 @@
+#ifndef BARKRENDERER_H
+#define BARKRENDERER_H
+
+#endif // BARKRENDERER_H
