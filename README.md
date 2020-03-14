@@ -3,4 +3,4 @@ Mobile App build with Qt 5, ImpGears and OpenGL ES 3.
 
 ## Demo :
 
-![](https://raw.githubusercontent.com/Lut1n/IGBarkAndLeafEditor/master/demo/ImpGearsMobileDemo.gif)
+![impgears_mobile_demo](demo/ImpGearsMobileDemo.gif)
